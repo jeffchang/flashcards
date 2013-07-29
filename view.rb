@@ -32,6 +32,13 @@ class View
       puts
     end
 
+    def welcome
+      puts 
+      puts "Weclome! Loading random flash card..."
+      puts 
+    end
+
+
   end
 
 end
