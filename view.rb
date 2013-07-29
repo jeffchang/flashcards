@@ -23,12 +23,12 @@ class View
     def incorrect(card_def)
       puts "Almost.... try again!"
       puts 
-      definition(card_definition)
+      definition(card_def)
     end
 
     def definition(card_def)
       puts "Definition"
-      puts "#{card_definition}"
+      puts "#{card_def}"
       puts
     end
 
