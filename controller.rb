@@ -1,7 +1,7 @@
 
 class Controller
 
-  def run
+  def self.run
     
     @our_deck = Deck.load
     @our_deck.cards.each do |card|
